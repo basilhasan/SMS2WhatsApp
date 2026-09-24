@@ -16,10 +16,6 @@ jobs:
     - name: Set up Java 17
       uses: actions/setup-java@v4
       with:
-      <available_expandable_skills>
-      - **`system:skill-creator`**: Create and save a new agent skill. Use when the user asks to create a skill from scratch or turn an existing query/workflow into a reusable skill.
-      - **`system:skill-updater`**: Modify, improve, and manage existing skills. Use when users want to edit, fix, or optimize a skill's description, instructions, or behavior, add/modify/delete/move/reorganize auxiliary files (such as guidelines.md, scripts, reference data, assets, or examples), or enable/disable/delete a skill.
-      </available_expandable_skills>
         distribution: 'temurin'
         java-version: '17'
         cache: gradle
